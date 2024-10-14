@@ -18,28 +18,34 @@
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/html/my_resume.html">Resume</a></li>
                 <li><a href="/html/my_fun_facts.html">Fun Facts</a></li>
+                <!-- Link to style folder-->
+                <link rel="stylesheet" href="/assets/css/style.css">
+
             </ul>
         </nav>
     </header>
 
-    <!-- Main content section -->
-    <section>
-        <!-- Personal image and quote -->
+    <!-- About Me Section with Better Layout for Quote and Paragraph -->
+    <section class="about-me">
         <img src="assets/img/personal_photo.jfif" alt="mypicture" width="200" height="200">
-        <blockquote>
-            "Talk to yourself like someone you love."
-        </blockquote>
-        <!-- Introduction paragraph with links to other pages -->
-        <p>
-            Hello, I'm Alejah, currently a Sophomore student majoring in IT. I'm from Detroit, Michigan. I am passionate about movies, gaming, and technology. In the past, I have worked in three different IT internships and am currently focused on Cybersecurity. Check out my
-            <a href="html/my_resume.html">Resume</a> and
-            <a href="html/my_fun_facts.html">Fun Facts</a> page to know more about me.
-        </p>
+        
+        <div class="quote-container">
+            <blockquote>
+                "Talk to yourself like someone you love."
+            </blockquote>
+        </div>
 
-        <!-- Progress bar for any achievement or milestone -->
-        <progress value="100" max="130">100/130</progress>
+        <div class="content-container">
+            <p>
+                Hello, I'm Alejah, currently a Sophomore student majoring in IT. I'm from Detroit, Michigan. I am passionate about movies, gaming, and technology. In the past, I have worked in three different IT internships and am currently focused on Cybersecurity. Check out my
+                <a href="html/my_resume.html">Resume</a> and
+                <a href="html/my_fun_facts.html">Fun Facts</a> page to know more about me.
+            </p>
 
+            <progress value="100" max="130">100/130</progress>
+        </div>
     </section>
+
 
     <!-- Footer with copyright information -->
     <footer>
