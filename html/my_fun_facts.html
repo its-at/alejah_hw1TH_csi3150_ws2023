@@ -1,71 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Specifies character encoding for the document -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Sets the viewport to make the site responsive for different screen sizes -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title of the web page (shown in the browser tab) -->
     <title>Some fun facts about me</title>
     <!-- Link to the favicon (small icon shown in the browser tab) -->
-    <link rel="icon" href="../assets/img/hobby.jpg" type="hobby skateboarding favicon">
-</head>
-<body>
-    
+    <link
+      rel="icon"
+      href="../assets/img/hobby.jpg"
+      type="hobby skateboarding favicon"
+    />
+  </head>
+  <body>
     <header>
-        <!-- Main heading of the page -->
-        <h1>Some fun facts about me</h1>
-        <!-- Navigation bar linking to other pages of the site -->
-        <nav>
-            <ul>
-                <!-- Link to the Home page -->
-                <li><a href="/index.html">Home</a></li>
-                <!-- Link to the Resume page -->
-                <li><a href="/html/my_resume.html">Resume</a></li>
-                <!-- Link to the Fun Facts page (current page) -->
-                <li><a href="/html/my_fun_facts.html">Fun Facts</a></li>
-                <!-- Link to style folder-->
-                <link rel="stylesheet" href="/css/style.css">
+      <!-- Main heading of the page -->
+      <h1>Some fun facts about me</h1>
+      <!-- Navigation bar linking to other pages of the site -->
+      <nav>
+        <ul>
+          <!-- Link to the Home page -->
+          <li><a href="./index.html">Home</a></li>
+          <!-- Link to the Resume page -->
+          <li><a href="./html/my_resume.html">Resume</a></li>
+          <!-- Link to the Fun Facts page (current page) -->
+          <li><a href="./html/my_fun_facts.html">Fun Facts</a></li>
+          <!-- Link to style folder-->
+          <link rel="stylesheet" href="./css/style.css" />
+        </ul>
+      </nav>
+    </header>
 
-            </ul>
-        </nav>
-     </header>
+    <section>
+      <!-- Section for favorite book -->
+      <h3>Favorite Book</h3>
+      <!-- Book image with special class to exclude from general styling -->
+      <img
+        class="book-image"
+        src="../assets/img/The_Hunger_Games_cover.jpg"
+        alt="Favorite Book"
+        width="200"
+      />
+      <p>
+        "The Hunger Games" by Suzanne Collins. I like this book because of the
+        dystopian setting and the characters.
+      </p>
+      <a href="https://shorturl.at/lrOmH">Buy here</a>
 
-     <section>
-        <!-- Section for favorite book -->
-         <h3>Favorite Book</h3>
-        <!-- Book image with special class to exclude from general styling -->
-        <img class="book-image" src="../assets/img/The_Hunger_Games_cover.jpg" alt="Favorite Book" width="200">
-        <p>"The Hunger Games" by Suzanne Collins. I like this book because of the dystopian setting and the characters.</p>
-        <a href="https://shorturl.at/lrOmH">Buy here</a>
+      <!-- Section for favorite audio track -->
+      <h3>Favorite Audio Track</h3>
+      <!-- Audio player for the favorite track -->
+      <audio controls>
+        <source src="../assets/audio/SZA - Good Days.mp3" type="audio/mp3" />
+        <!-- Fallback message for browsers that don't support the audio element -->
+        Your browser does not support the audio element.
+      </audio>
+      <!-- Brief description of why the song is liked -->
+      <p>
+        "Good Days by Sza. I like this song because of the singers vocals that
+        fits in perfectly with the instrumental.
+      </p>
+      <!-- Link to listen to the song -->
+      <a href="https://www.youtube.com/watch?v=oh64haEP9g8">Listen here</a>
 
+      <!-- Section for favorite movie -->
+      <h3>Favorite Movie</h3>
+      <!-- Embedded video player for the movie trailer -->
+      <iframe
+        width="500"
+        height="315"
+        src="../assets/video/[Universal Pictures] NOPE ｜ Official Trailer.mp4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <!-- Brief description of why the movie is liked -->
+      <p>
+        This is my favorite movie because of the visuals and audio combined make
+        for such a disturbing and unsettling watch, which is what most horror
+        movies don't rely on as much as they do simple jumpscares.
+      </p>
+    </section>
 
-        <!-- Section for favorite audio track -->
-        <h3>Favorite Audio Track</h3>
-        <!-- Audio player for the favorite track -->
-        <audio controls>
-            <source src="../assets/audio/SZA - Good Days.mp3" type="audio/mp3">
-            <!-- Fallback message for browsers that don't support the audio element -->
-            Your browser does not support the audio element.
-        </audio>
-        <!-- Brief description of why the song is liked -->
-        <p>"Good Days by Sza. I like this song because of the singers vocals that fits in perfectly with the instrumental.</p>
-        <!-- Link to listen to the song -->
-        <a href="https://www.youtube.com/watch?v=oh64haEP9g8">Listen here</a>
-
-        <!-- Section for favorite movie -->
-        <h3>Favorite Movie</h3>
-        <!-- Embedded video player for the movie trailer -->
-        <iframe width="500" height="315" src="../assets/video/[Universal Pictures] NOPE ｜ Official Trailer.mp4" frameborder="0" allowfullscreen></iframe>
-        <!-- Brief description of why the movie is liked -->
-        <p>This is my favorite movie because of the visuals and audio combined make for such a disturbing and unsettling watch, which is what most horror movies don't rely on as much as they do simple jumpscares.</p>
-     </section>
-
-     <footer>
-        <!-- Horizontal line separating the footer from the rest of the content -->
-        <hr>
-        <!-- Copyright and contact information -->
-        <p>&copy; 2024 Alejah Tillerson | <a href="atillerson@oakland.edu">atillerson@oakland.edu</a></p>
-     </footer>
-</body>
+    <footer>
+      <!-- Horizontal line separating the footer from the rest of the content -->
+      <hr />
+      <!-- Copyright and contact information -->
+      <p>
+        &copy; 2024 Alejah Tillerson |
+        <a href="atillerson@oakland.edu">atillerson@oakland.edu</a>
+      </p>
+    </footer>
+  </body>
 </html>
